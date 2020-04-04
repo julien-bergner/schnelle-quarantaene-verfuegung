@@ -7,6 +7,7 @@ de:
         user:
           attributes:
             email:
+              blank: "darf nicht leer sein. Bitte geben Sie eine E-Mail-Adresse ein."
               taken: "bereits registriert. Bitte melden Sie sich an."
             password_confirmation:
               confirmation: "stimmt nicht überein."

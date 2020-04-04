@@ -42,4 +42,35 @@
     text-align: left;
  }
  
- @import "bootstrap";
+@import "bootstrap";
+
+$green:#6b8e23;
+
+a {
+   color: $green;
+}
+
+a:hover {
+   color: $black;
+}
+
+.navbar-custom {
+   background-color: $green;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+   color: #fff;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+   color: #000;
+}
+
+.btn-primary {
+   @include button-variant($green, darken($green, 7.5%), darken($green, 10%), lighten($green,5%), lighten($green, 10%), darken($green,30%));
+}
+
+.btn-outline-primary {
+   @include button-outline-variant($green, #222222, lighten($green,5%), $green);
+}
