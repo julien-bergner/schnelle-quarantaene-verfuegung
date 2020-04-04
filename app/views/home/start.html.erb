@@ -4,25 +4,25 @@
         <br/>
         <div class="row">
             <div class="col-sm-4">
-                <%= link_to "Neue Kontaktperson erfassen", "#", class: "btn btn-primary btn-block mb-4" %>
+                <%= link_to "Neue Kontaktperson erfassen", new_contact_person_path, class: "btn btn-primary btn-block mb-4" %>
             </div>
             <div class="col-sm-4">
-                <%= link_to "Erfasste Kontaktpersonen anzeigen", "#", class: "btn btn-primary btn-block mb-4" %>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <%= link_to "Neuen Indexpatienten erfassen", "#", class: "btn btn-primary btn-block mb-4" %>
-            </div>
-            <div class="col-sm-4">
-                <%= link_to "Erfasste Indexpatienten anzeigen ", "#", class: "btn btn-primary btn-block mb-4" %>
+                <%= link_to "Erfasste Kontaktpersonen anzeigen", contact_people_path, class: "btn btn-primary btn-block mb-4" %>
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-4">
-                <%= link_to "Quarantäneverfügung generieren", "#", class: "btn btn-primary btn-block" %>
+                <button type="button" class="btn btn-primary btn-block mb-4" disabled>Neuen Indexpatienten erfassen</button>
+            </div>
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-primary btn-block mb-4" disabled>Erfasste Indexpatienten anzeigen</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <button type="button" class="btn btn-primary btn-block mb-4" disabled>Quarantäneverfügung generieren</button>
             </div>
             <div class="col-sm-4">
             </div>
