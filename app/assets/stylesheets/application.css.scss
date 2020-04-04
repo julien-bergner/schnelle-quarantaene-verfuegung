@@ -74,3 +74,7 @@ a:hover {
 .btn-outline-primary {
    @include button-outline-variant($green, #222222, lighten($green,5%), $green);
 }
+
+.btn {
+   word-wrap: break-word;
+}
