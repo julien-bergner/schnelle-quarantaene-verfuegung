@@ -13,10 +13,10 @@
 
         <div class="row">
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary btn-block mb-4" disabled>Neuen Indexpatienten erfassen</button>
+                <%= link_to "Neuen Indexpatienten erfassen", new_index_patient_path, class: "btn btn-primary btn-block mb-4" %>
             </div>
             <div class="col-sm-4">
-                <button type="button" class="btn btn-primary btn-block mb-4" disabled>Erfasste Indexpatienten anzeigen</button>
+                <%= link_to "Erfasste Indexpatienten anzeigen", index_patients_path, class: "btn btn-primary btn-block mb-4" %>
             </div>
         </div>
 
