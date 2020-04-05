@@ -110,7 +110,7 @@ de:
       updated_not_active: Ihr Passwort wurde geändert.
     registrations:
       user:
-        signed_up_but_not_approved: "Sie haben Sich erfolgreich eingeloggt, aber Ihr Konto wurden noch nicht vom Administrator aktiviert."
+        signed_up_but_not_approved: "Sie haben sich erfolgreich registriert. Wir haben Ihnen eine E-Mail zur Bestätigung Ihrer E-Mail-Adresse geschickt. Bitte bestätigen Sie Ihrer E-Mail-Adresse und wenden Sie sich anschließend an den Administrator, um Ihr Konto aktivieren zu lassen."
       destroyed: Ihr Konto wurde gelöscht.
       edit:
         are_you_sure: Sind Sie sicher?
